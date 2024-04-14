@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request, HTTPException
-from fastapi.response import JSONResponse
+from fastapi.responses import JSONResponse
 from app.v1.routes import router as apiv1_router 
 
 app = FastAPI()
