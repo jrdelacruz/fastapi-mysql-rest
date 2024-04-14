@@ -1,4 +1,5 @@
 fastapi
 pymysql
-python-dotenv 
+python-dotenv
+python-multipart
 uvicorn
